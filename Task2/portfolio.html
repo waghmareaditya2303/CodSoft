@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Waghmare - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">AW</div> <!-- Added logo div -->
+        <h1>Aditya Waghmare</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="divider"></div>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Aditya.jpg" alt="Aditya Waghmare" class="profile-image">
+        <p>
+            I'm Aditya Waghmare, a passionate web developer with expertise in HTML, CSS, JavaScript, React, Node.js, Java, and C++. 
+            Specializing in creating engaging and dynamic web applications, I have experience in various programming languages and web technologies.
+            With a commitment to excellence, I aim to deliver innovative and user-friendly solutions.
+        </p>
+    </section>
+
+    <!-- Animated Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML <span class="progress-bar" style="width: 90%;"></span> <i class="fab fa-html5" title="HTML"></i></li>
+            <li>CSS <span class="progress-bar" style="width: 85%;"></span> <i class="fab fa-css3" title="CSS"></i></li>
+            <li>JavaScript <span class="progress-bar" style="width: 80%;"></span> <i class="fab fa-js" title="JavaScript"></i></li>
+            <li>React <span class="progress-bar" style="width: 80%;"></span> <i class="fab fa-react" title="React"></i></li>
+            <li>NodeJs <span class="progress-bar" style="width: 80%;"></span> <i class="fab fa-node-js" title="Node.js"></i></li>
+            <li>Java <span class="progress-bar" style="width: 80%;"></span> <i class="fab fa-java" title="Java"></i></li>
+            <li>C++ <span class="progress-bar" style="width: 80%;"></span> <i class="fab fa-cuttlefish" title="C++"></i></li>
+            <!-- Add more skills with progress bars as needed -->
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Spotify Clone</h3>
+                <p>
+                    A music streaming application inspired by Spotify. Users can explore and listen to their favorite music, create playlists, and discover new tracks.
+                    Technologies used include HTML and CSS.
+                </p>
+                <img src="spotify-clone-image.jpg" alt="Spotify Clone">
+            </li>
+            <li>
+                <h3>E-Commerce for Youth</h3>
+                <p>
+                    An online marketplace catering to the youth, offering a variety of accessories. The website provides a seamless shopping experience with a responsive design.
+                    Technologies used include HTML, CSS, and JavaScript.
+                </p>
+                <img src="ecommerce-website-image.jpg" alt="E-Commerce for Youth">
+            </li>
+            <li>
+                <h3>Blog Writing Platform</h3>
+                <p>
+                    A full-fledged blog writing platform with a dynamic backend. Users can create, edit, and publish blog posts. Technologies include HTML, CSS, JavaScript, React, Node.js, and a database (e.g., MongoDB).
+                </p>
+                <img src="blog-platform-image.jpg" alt="Blog Writing Platform">
+            </li>
+            <!-- Add more projects as needed -->
+        </ul>
+    </section>
+    
+    <!-- Portfolio Showcase Section -->
+    <section class="portfolio-showcase">
+        <h2>Portfolio Showcase</h2>
+        <div class="project">
+            <h3>AI based attendance system</h3>
+            <p>It's an AI based attendance system . The dataset is already avaliable on kaggle.The whole project is of Python.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+        <!-- Add more portfolio showcases as needed -->
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"Aditya's work is exceptional. He delivers high-quality solutions with precision and creativity."</p>
+            <p class="author">John Doe, CEO</p>
+        </div>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <h2>Blog</h2>
+        <!-- Blog posts go here -->
+        <article>
+            <h3>Unleashing the Potential :  AI in Healthcare</h3>
+            <p>In recent years, the integration of Artificial Intelligence (AI) into the healthcare sector has emerged as a revolutionary force, promising transformative changes in patient care and medical practices. AI, particularly through advanced machine learning algorithms, has proven instrumental in diagnostic processes, demonstrating unparalleled accuracy in analyzing medical images and detecting diseases at early stages. The advent of personalized medicine, fueled by AI's ability to analyze individual patient data, is reshaping treatment strategies for enhanced efficacy. Beyond clinical applications, AI is streamlining administrative tasks, from managing electronic health records to automating scheduling and billing processes. While challenges around data privacy and ethical considerations persist, the collaborative potential of human expertise and AI capabilities is paving the way for a future where healthcare is not only more efficient but also more personalized and proactive.</p>
+        </article>
+        <!-- Add more blog posts as needed -->
+    </section>
+
+    <!-- GitHub Repositories Section -->
+    <section class="github">
+        <h2>GitHub Repositories</h2>
+        <!-- GitHub repositories go here -->
+        <div class="repo">
+            <h3>CodSoft</h3>
+            <p>Three web development tasks were given.the first and second task was of HTML and CSS.The third task was of JavaScript based calculator.</p>
+            <a href="https://github.com/yourusername/repo" target="_blank">View on GitHub</a>
+        </div>
+        <!-- Add more repositories as needed -->
+    </section>
+    
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+        <label for="darkModeToggle">Dark Mode</label>
+        <input type="checkbox" id="darkModeToggle">
+    </div>
+    
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my <a href="Resume.pdf" target="_blank">resume</a> in PDF format.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: adityawaghmare2303@gmail.com</p>
+        <p>Phone: +91 7058298139</p>
+    </section>
+    
+    <!-- Social Icons Section -->
+    <section class="social-icons">
+        <h2>Connect with Me</h2>
+        <a href="#" target="_blank" title="LinkedIn Profile">
+            <i class="fab fa-linkedin interactive-icons"></i> LinkedIn
+        </a>
+        <a href="#" target="_blank" title="GitHub Profile">
+            <i class="fab fa-github interactive-icons"></i> GitHub
+        </a>
+        <!-- Add more social icons as needed -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Aditya Waghmare. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
